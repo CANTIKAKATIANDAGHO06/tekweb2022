@@ -1,0 +1,52 @@
+{
+    "Articles": [
+        {
+            "id":0,
+            "judul":"Gambar 3 Dimensi",
+            "deskripsi":"Belajar menggambar 3D",
+            "image": "./image/3D.jpg",
+            "markdown": "3dimensi.md"
+        },
+        {
+            "id":1,
+            "judul":"DESIGN UI/UX",
+            "deskripsi":"Perbedaan antara UI dan UI",
+            "image": "./image/design.jpg",
+            "markdown": "Article/uiux.md"
+        },
+        {
+            "id":2,
+            "judul":"EXO",
+            "deskripsi":"Exo adalah Boy Band asal Kore yang dinaungi oleh SM-INTERTEIMENT",
+            "image": "./image/EXO.jpg",
+            "markdown": "Article/exo.md"
+        },
+        {
+            "id":3,
+            "judul":"HTML",
+            "deskripsi":"Pengertian HTML ",
+            "image": "./image/HTML.jpg",
+            "markdown": "Article/html.md"
+        },
+        {
+            "id":4,
+            "judul":"CSS",
+            "deskripsi":"Apa yang dimaksud dengan CSS",
+            "image": "./image/CSS.jpg",
+            "markdown": "Article/css.md" 
+        },
+        {
+            "id":5,
+            "judul":"JAVA",
+            "deskripsi":"Pengertian Java",
+            "image": "./image/Java.jpg",
+            "markdown": "Article/java.md"
+        }  
+    ],
+    "aboutMe": {
+        "id": 0,
+        "nama": "Cantika Juandy Putri Katiandagho",
+        "story":"",
+        "link":""
+    }
+}
