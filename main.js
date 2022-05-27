@@ -34,7 +34,7 @@ Vue.createApp({
               )
               .then((res) => {
                   var html = converter.makeHtml(res.data);
-                  this.Article = html;
+                  this.article = html;
                   console.log(html);
               })
               .catch((error) => {
