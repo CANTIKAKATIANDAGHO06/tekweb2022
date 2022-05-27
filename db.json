@@ -12,7 +12,7 @@
             "judul":"DESIGN UI/UX",
             "deskripsi":"Perbedaan antara UI dan UI",
             "image": "./image/design.jpg",
-            "link": "article2.md"
+            "link": "article6.md"
         },
         {
             "id":2,
@@ -33,14 +33,14 @@
             "judul":"CSS",
             "deskripsi":"Apa yang dimaksud dengan CSS",
             "image": "./image/CSS.jpg",
-            "link": "article5.md" 
+            "link": "article2.md" 
         },
         {
             "id":5,
             "judul":"JAVA",
             "deskripsi":"Pengertian Java",
             "image": "./image/Java.jpg",
-            "link": "article6.md"
+            "link": "article5.md"
         }  
     ]
 }
