@@ -9,6 +9,7 @@ berikut adalah penjelasannya
 
 ### User
 1 getAllUser()
+
 pada getAllUser merupakan fungsi untuk menggambil semua data user dari api yang saya buat
 
 ```    
@@ -29,6 +30,7 @@ response:
 ```
 
 2 getUserById()
+
 pada getUserById sendiri merupakan fungsi yang digunakan untuk mengambil data dari api berdasarkan `id`
 
 ```
