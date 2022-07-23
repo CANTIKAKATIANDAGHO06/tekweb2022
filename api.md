@@ -2,9 +2,8 @@
 Adapun api point yang saya buat di antaranya:
 1. User
 2. Articles
-3. About
 
-Dari ke 3 design api ini nantinya akan terdapat masing-masing fungsi yang akan dibuat untuk membuat suatu controller agar api dapat berjalan
+Dari ke 2 design api ini nantinya akan terdapat masing-masing fungsi yang akan dibuat untuk membuat suatu controller agar api dapat berjalan
 berikut adalah penjelasannya 
 
 ### User
