@@ -8,27 +8,24 @@ Dari ke 3 design api ini nantinya akan terdapat masing-masing fungsi yang akan d
 berikut adalah penjelasannya 
 
 ### User
-
-#### getAllUser()
-
-pada getAllUser merupakan fungsi untuk menggambil semua data user dari api yang saya buat
-
-```
-GET: /user
-
-response:
-[
-    {
-        "id"                : "",
-        "nama"              : "",
-        "link_ig"           : "",
-        "link_github"       : "",
-        "link_youtube"      : "",
-        "desc"              : ""
-    }
-    ...
-]
-```
+    -#### getAllUser()
+    pada getAllUser merupakan fungsi untuk menggambil semua data user dari api yang saya buat
+    ```
+    GET: /user
+    
+    response:
+    [
+        {
+            "id"                : "",
+            "nama"              : "",
+            "link_ig"           : "",
+            "link_github"       : "",
+            "link_youtube"      : "",
+            "desc"              : ""
+        }
+        ...
+    ]
+    ```
 
 #### getUserById()
 
