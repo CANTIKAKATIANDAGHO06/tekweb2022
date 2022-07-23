@@ -47,31 +47,207 @@ response:
 }
 ```
 
-#### createUser()
+3 createUser()
 
+createUser merupakan program untuk menmabahkan data user
 
-#### updateUser()
+```
+POST: /user
 
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
 
-#### deleteUser()
+body:
+{
+    "nama"              : "",
+    "link_ig"           : "",
+    "link_github"       : "",
+    "link_youtube"      : "",
+    "desc"              : ""
+}
 
+response:
+true    // if success
+false   // if failure
+```
+4 updateUser()
+
+updateUser sendiri merupakan program untuk mengubah data user
+
+```
+PUT: /user
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:
+{
+    "id"                : "",
+    "nama"              : "",
+    "link_ig"           : "",
+    "link_github"       : "",
+    "link_youtube"      : "",
+    "desc"              : ""
+}
+
+response:
+true    // if success
+false   // if failure
+```
+5 deleteUser()
+
+deleteUser yaitu program untuk menghapus user
+
+```
+DELETE: /user/[id]
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+response:
+true    // if success
+false   // if failure
+```
 
 ### Articles
+1 getAllArticle()
+
+getAllArticle Merupakan program untuk menampilkan seluruh data article
+
+```
+GET: /articles
+
+response:
+[
+    {
+        "id"                : "",
+        "thumbnail_url"     : "",
+        "title"             : "",
+        "desc"              : "",
+        "article_url"       : ""
+    }
+    ...
+]
+```
+
+2 getArticleById()
+
+getArticleById merupakan program untuk menampilkan data berdasarkan `id`
+
+```
+GET: /articles/[id]
+
+response:
+{
+    "id"                : "",
+    "thumbnail_url"     : "",
+    "title"             : "",
+    "desc"              : "",
+    "article_url"       : ""
+}
+```
 
 
-#### getAllArticle
+3 createArticle()
 
+createArticle merupakan fungsi untuk membuat data article
 
-#### getArticleById
+```
+POST: /articles
 
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
 
-#### createArticle
+body:
+{
+    "thumbnail_url"     : "",
+    "title"             : "",
+    "desc"              : "",
+    "article_url"       : ""
+}
 
+response:
+true    // if success
+false   // if failure
+```
 
-#### updateArticle
+4 updateArticle()
 
+updateArticle merupakan fungsi untuk mengubah data yang telah ada
 
-#### deleteArticle
+```
+PUT: /articles
 
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
 
-### About
+body:
+{
+    "id"                : "",
+    "thumbnail_url"     : "",
+    "title"             : "",
+    "desc"              : "",
+    "article_url"       : ""
+}
+
+response:
+true    // if success
+false   // if failure
+```
+
+5 deleteArticle()
+
+deleteArticle adalah program untuk menghapus data article
+
+```
+DELETE: /article/[id]
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+response:
+true    // if success
+false   // if failure
+```
+
+## Design Database
+
+Design database ini merupakan desing untuk rancangan awal sebelum saya membuat api point
+berikut adalah rancangannya:
+
+```mermaid
+calssDiagram
+    class user{
+        # id                : int
+        + nama"             : string
+        + link_ig           : string
+        + link_github       : string
+        + link_youtube      : string
+        + desc              : string
+    }
+    class articles{
+        # id                : int
+        + thumbnail_url     : string
+        + title             : string
+        + desc              : string
+        + article_url       : string
+    }
+```
