@@ -236,8 +236,8 @@ berikut adalah rancangannya:
 ```mermaid
 calssDiagram
     class user{
-        # id                : int
-        + nama"             : string
+        # id: int
+        + nama: string
         + link_ig           : string
         + link_github       : string
         + link_youtube      : string
