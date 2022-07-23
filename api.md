@@ -9,7 +9,7 @@ berikut adalah penjelasannya
 
 > User
 
-### getAllUser()
+### > getAllUser()
 
 pada getAllUser merupakan fungsi untuk menggambil semua data user dari api yang saya buat
 
