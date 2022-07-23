@@ -7,7 +7,7 @@ Adapun api point yang saya buat di antaranya:
 Dari ke 3 design api ini nantinya akan terdapat masing-masing fungsi yang akan dibuat untuk membuat suatu controller agar api dapat berjalan
 berikut adalah penjelasannya 
 
-> User
+### User
 
 #### getAllUser()
 
@@ -30,34 +30,34 @@ response:
 ]
 ```
 
-### getUserById()
+#### getUserById()
 
 
-### createUser()
+#### createUser()
 
 
-### updateUser()
+#### updateUser()
 
 
-### deleteUser()
+#### deleteUser()
 
 
-> Articles
+### Articles
 
 
-### getAllArticle
+#### getAllArticle
 
 
-### getArticleById
+#### getArticleById
 
 
-### createArticle
+#### createArticle
 
 
-### updateArticle
+#### updateArticle
 
 
-### deleteArticle
+#### deleteArticle
 
 
-> About
+### About
