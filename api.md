@@ -234,14 +234,14 @@ Design database ini merupakan desing untuk rancangan awal sebelum saya membuat a
 berikut adalah rancangannya:
 
 ```mermaid
-calssDiagram
+classDiagram
     class user{
-        # id: int
-        + nama: string
-        + link_ig: string
-        + link_github: string
-        + link_youtube: string
-        + desc: string
+        # id                : int
+        + nama              : string
+        + link_ig           : string
+        + link_github       : string
+        + link_youtube      : string
+        + desc              : string
         + getAllUser()
         + getUserById()
         + createUser()
@@ -249,11 +249,11 @@ calssDiagram
         + deleteUser()
     }
     class articles{
-        # id: int
-        + thumbnail_url: string
-        + title: string
-        + desc: string
-        + article_url: string
+        # id                : int
+        + thumbnail_url     : string
+        + title             : string
+        + desc              : string
+        + article_url       : string
         + getAllArticle()
         + getArticleById()
         + cerateArticle
