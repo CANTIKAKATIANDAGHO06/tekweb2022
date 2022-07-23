@@ -236,12 +236,17 @@ berikut adalah rancangannya:
 ```mermaid
 calssDiagram
     class user{
-        # id: int
-        + nama: string
+        # id                : int
+        + nama              : string
         + link_ig           : string
         + link_github       : string
         + link_youtube      : string
         + desc              : string
+        + getAllUser()
+        + getUserById()
+        + createUser()
+        + updateUser()
+        + deleteUser()
     }
     class articles{
         # id                : int
@@ -249,5 +254,10 @@ calssDiagram
         + title             : string
         + desc              : string
         + article_url       : string
+        + getAllArticle()
+        + getArticleById()
+        + cerateArticle
+        + updateArticle()
+        + deleteArticle()
     }
 ```
